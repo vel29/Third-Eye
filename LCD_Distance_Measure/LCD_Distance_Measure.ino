@@ -6,7 +6,8 @@ const int echoPin = 10;
 long duration;
 int Cm,Inch;
 void setup() {
-//lcd.begin(16,2); // Initializes the dimensions of LCD screen
+//lcd.begin(16,2); 
+// Initializes the dimensions of LCD screen
 Serial.begin(9600);
 lcd.init();
 lcd.backlight();
