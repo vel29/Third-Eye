@@ -7,6 +7,7 @@ long duration;
 int Cm,Inch;
 void setup() {
 //lcd.begin(16,2); 
+
 // Initializes the dimensions of LCD screen
 Serial.begin(9600);
 lcd.init();
@@ -14,6 +15,7 @@ lcd.backlight();
 pinMode(trigPin, OUTPUT);
 pinMode(echoPin, INPUT);
 }
+
 void loop() {
   digitalWrite(trigPin, LOW);
   delayMicroseconds(2);
